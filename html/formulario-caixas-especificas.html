@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>K19 - Treinamentos</title>
+		<style type="text/css">
+			.bloco{margin-bottom: 10px; display: block;}
+			.bloco label{display: block;}
+		</style>
+	</head>
+	<body>
+		<h1>Formulário Caixas Específicas</h1>
+
+		<form action="parametros.php" method="post">
+			<div class="bloco">
+				<label for="keywords">Busca:</label>
+				<input type="search" name="keywords" id="keywords">
+			</div>
+			<div class="bloco">
+				<label for="idade">Idade:</label>
+				<input type="number" name="idade" id="idade">
+			</div>
+			<div class="bloco">
+				<label for="curtiu">Curtiu:</label>
+				<input type="range" name="curtiu" id="curtiu">
+			</div>
+			<div class="bloco">
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email">
+			</div>
+			<div class="bloco">
+				<label for="telefone">Telefone:</label>
+				<input type="tel" name="telefone" id="telefone">
+			</div>
+			<div class="bloco">
+				<label for="site">Site:</label>
+				<input type="url" name="site" id="site">
+			</div>
+			<div class="bloco">
+				<label for="nascimento">Nascimento:</label>
+				<input type="date" name="nascimento" id="nascimento">
+			</div>
+			<div class="bloco">
+				<label for="aniversario">Festa de Aniversário:</label>
+				<input type="datetime-local" name="aniversario" id="aniversario">
+			</div>
+			<div class="bloco">
+				<label for="carnaval">Mês do Próximo Carnaval:</label>
+				<input type="month" name="carnaval" id="carnaval">
+			</div>
+			<div class="bloco">
+				<label for="rock-in-rio">Semana do Rock in Rio:</label>
+				<input type="week" name="rock-in-rio" id="rock-in-rio">
+			</div>
+			<div class="bloco">
+				<label for="hora-entrada">Horário de Entrada:</label>
+				<input type="time" name="hora-entrada" id="hora-entrada">
+			</div>
+			<div class="bloco">
+				<label for="senha">Senha:</label>
+				<input type="password" name="senha" id="senha">
+			</div>
+			<div class="bloco">
+				<label for="mensagem">Mensagem:</label>
+				<textarea name="mensagem" id="mensagem" cols="50" rows="5"></textarea>
+			</div>
+			<div class="bloco">
+				<input type="submit" value="Enviar">
+			</div>
+		</form>
+	</body>
+</html>
