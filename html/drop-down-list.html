@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>K19 Treinamentos</title>
+</head>
+<body>
+    <h1>Exercícios com DropDown List</h1>
+
+    <form action="parametros.php" method="post">
+        <h2>DropDown Multiple</h2>
+        <label for="estados_id">Estados</label>
+        <br>
+
+        <select name="estados" id="estados_id" multiple="multiple">
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="rs">Rio Grande do Sul</option>
+            <option value="pr">Paraná</option>
+            <option value="rn">Rio Grande do Norte</option>
+            <option value="bh">Bahia</option>
+        </select>
+        <hr>
+
+        <h2>DropDown com Optgroup</h2>
+        <label for="id_estados">Estados</label>
+        <br>
+
+        <select name="estados-regioes" id="id_estados">
+            <optgroup label="Região Sudeste">
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+            </optgroup>
+            <optgroup label="Região Sul">
+                <option value="rs">Rio Grande do Sul</option>
+                <option value="pr">Paraná</option>
+            </optgroup>
+            <optgroup label="Região Nordeste">
+                <option value="rn">Rio Grande do Norte</option>
+                <option value="bh">Bahia</option>
+            </optgroup>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
