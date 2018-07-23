@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>K19 - Treinamentos</title>
+</head>
+<body>
+    <h1>Exercícios com Autocomplete</h1>
+
+    <form action="parametros.php" method="post">
+        <input type="text" name="comida" list="comida_id">
+
+        <datalist id="comida_id">
+            <option value="Lasanha">
+            <option value="Pizza">
+            <option value="Sopa">
+            <option value="Salada">
+        </datalist>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
