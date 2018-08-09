@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>K19 - Treinamentos</title>
+	</head>
+	<body>
+		<h1>Exercícios de validação</h1>
+
+		<form action="parametros.php" method="post">
+			<label for="nome">Nome:</label>
+			<p><input type="text" name="nome" id="nome" required></p>
+
+			<label for="email">Email:</label>
+			<p><input type="email" name="email" id="email"></p>
+
+			<label for="url">URL:</label>
+			<p><input type="url" name="url" id="url"></p>
+
+			<label for="placa">Placa:</label>
+			<p><input type="text" name="placa" id="placa" pattern="[A-Z]{3} [0-9]{4}" title="As placas são formadas por 3 letras e 4 números."></p>
+
+			<input type="submit" name="btnEnviar" value="Enviar">
+		</form>
+	</body>
+</html>
