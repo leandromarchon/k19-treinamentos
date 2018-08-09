@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>K19 - Treinamentos</title>
+	</head>
+	<body>
+		<h1>Exemplos de 'disabled' e 'readonly'</h1>
+
+		<form action="parametros.php" method="post">
+			<label for="nome">Nome: </label>
+			<p><input type="text" name="nome" id="nome" value="Leandro Marchon" readonly></p>
+
+			<label for="email">Email: </label>
+			<p><input type="email" name="email" id="email" disabled></p>
+
+			<input type="submit" name="btnEnviar" value="Enviar">
+		</form>
+	</body>
+</html>
