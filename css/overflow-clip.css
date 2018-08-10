@@ -44,3 +44,42 @@ p{
 	left: 400px;
 	clip:rect(10px, 118px, 108px, 40px);
 }
+
+
+/*
+	overflow-x
+		A propriedade overflow-x determina o que os navegadores devem fazer quando o conteúdo de um elemento HTML extrapola 
+		horizontalmente os limites do mesmo.
+
+			- visible	-> O conteúdo excedente na horizontal será exibido (padrão).
+			- hidden	-> O conteúdo excedente na horizontal não será exibido.
+			- scroll    -> O conteúdo excedente na horizontal não será exibido e um mecanismo de rolagem horizontal será
+						   disponibilizado.
+			- auto      -> O conteúdo excedente na horizontal não será exibido e um mecanismo de rolagem horizontal será
+			               disponibilizado somente se necessário.
+
+
+	overflow-y
+		A propriedade overflow-y determina o que os navegadores devem fazer quando o conteúdo de um elemento HTML extrapola 
+		verticalmente os limites do mesmo.
+
+			- visible	-> O conteúdo excedente na vertical será exibido (padrão).
+			- hidden	-> O conteúdo excedente na vertical não será exibido.
+			- scroll    -> O conteúdo excedente na vertical não será exibido e um mecanismo de rolagem vertical será
+						   disponibilizado.
+			- auto      -> O conteúdo excedente na vertical não será exibido e um mecanismo de rolagem vertical será
+			               disponibilizado somente se necessário.
+
+
+	overflow
+		A propriedade overflow determina o que os navegadores devem fazer quando o conteúdo de um elemento HTML extrapola
+		os limites do mesmo.
+
+			- visible	 -> O conteúdo excedente será exibido (padrão).
+			- hidden	 -> O conteúdo excedente não será exibido.
+			- scroll 	 -> O conteúdo excedente não será exibido e um mecanismo de rolagem será disponibilizado.
+			- auto 		 -> O conteúdo excedente não será exibido e um mecanismo de rolagem será disponibilizado somente
+						    se necessário.
+			- no-display -> O elemento HTML não será exibido se o seu conteúdo extrapolar os limites do seu box.
+			- inherit	 -> Assume o valor da mesma propriedade no elemento HTML pai.
+*/
