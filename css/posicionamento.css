@@ -35,3 +35,32 @@ div{
 	background-color: #ff0000;
 	z-index: -1;
 }
+
+
+/*
+	Informações extras
+
+	- float
+		left 	-> Flutuar à esquerda
+		right 	-> Flutuar à direita
+		none	-> Sem flutuação (padrão)
+		inherit	-> Assume o valor da mesma propriedade no elemento HTML pai
+
+	- clear
+		Os boxes dos elementos HTML próximos do box de um elemento com 'float' diferente de 'none' são 'empurrados'
+		horizontalmente à esquerda ou à direita.
+
+			left 	-> Não permite boxes flutuando à esquerda
+			right	-> Não permite boxes flutuando à direita
+			both    -> Não permite boxes flutuando nem à esquerda nem à direita
+			none	-> Permite boxes flutuando à esquerda e à direita (padrão)
+			inherit	-> Assume o valor da mesma propriedade no elemento HTML pai
+
+	- z-index
+		A sobreposição de boxes dos elementos HTML pode ser controlada através da propriedade 'z-index'. Basicamente, 
+		essa propriedade permite determinar em qual plano um box deve ser exibido.
+
+			auto    -> Mesmo plano do box do elemento HTML pai (padrão)
+			(x)		-> O valor (x) é o plano desejado. Esse valor pode ser negativo
+			inherit	-> Assume o valor da mesma propriedade no elemento HTML pai
+*/
