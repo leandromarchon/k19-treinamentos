@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+img{
+	float: left;
+}
+
+#p3{
+	clear: left;
+}
+
+div{
+	width: 200px;
+	height: 100px
+	color: #fff;
+}
+
+#div1{
+	position: fixed;
+	right: 20px;
+	top: 40px;
+	background-color: #00ff00;
+}
+
+#div2{
+	position: relative;
+	top: 30px;
+	left: 60px;
+	background-color: #0000ff;
+}
+
+#div3{
+	position: absolute;
+	bottom: -40px;
+	right: -100px;
+	background-color: #ff0000;
+	z-index: -1;
+}
