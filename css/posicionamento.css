@@ -47,8 +47,7 @@ div{
 		inherit	-> Assume o valor da mesma propriedade no elemento HTML pai
 
 	- clear
-		Os boxes dos elementos HTML próximos do box de um elemento com 'float' diferente de 'none' são 'empurrados'
-		horizontalmente à esquerda ou à direita.
+		Os boxes dos elementos HTML próximos do box de um elemento com 'float' diferente de 'none' são 'empurrados' horizontalmente à esquerda ou à direita.
 
 			left 	-> Não permite boxes flutuando à esquerda
 			right	-> Não permite boxes flutuando à direita
@@ -57,8 +56,7 @@ div{
 			inherit	-> Assume o valor da mesma propriedade no elemento HTML pai
 
 	- z-index
-		A sobreposição de boxes dos elementos HTML pode ser controlada através da propriedade 'z-index'. Basicamente, 
-		essa propriedade permite determinar em qual plano um box deve ser exibido.
+		A sobreposição de boxes dos elementos HTML pode ser controlada através da propriedade 'z-index'. Basicamente, essa propriedade permite determinar em qual plano um box deve ser exibido.
 
 			auto    -> Mesmo plano do box do elemento HTML pai (padrão)
 			(x)		-> O valor (x) é o plano desejado. Esse valor pode ser negativo
