@@ -1,0 +1,356 @@
+@charset "utf-8";
+
+#img1{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	z-index: 2;
+
+	animation: animacao1 1s linear, animacao2 0.5s linear, animacao3 500ms linear, animacao4 500ms linear;
+	animation-delay: 2s, 3s, 3.5s, 4s;
+
+	/* Chrome, Safari */
+	-webkit-animation: animacao1 1s linear, animacao2 0.5s linear, animacao3 500ms linear, animacao4 500ms linear;
+	-webkit-animation-delay: 2s, 3s, 3.5s, 4s;
+
+	/* Mozilla Firefox */
+	-moz-animation: animacao1 1s linear, animacao2 0.5s linear, animacao3 500ms linear, animacao4 500ms linear;
+	-moz-animation-delay: 2s, 3s, 3.5s, 4s;
+
+	/* Opera */
+	-o-animation: animacao1 1s linear, animacao2 0.5s linear, animacao3 500ms linear, animacao4 500ms linear;
+	-o-animation-delay: 2s, 3s, 3.5s, 4s;
+
+	/* Internet Explorer */
+	-ms-animation: animacao1 1s linear, animacao2 0.5s linear, animacao3 500ms linear, animacao4 500ms linear;
+	-ms-animation-delay: 2s, 3s, 3.5s, 4s;
+}
+
+#img2{
+	position: absolute;
+	top: 400px;
+	left: 110px;
+	z-index: 1;
+	
+	transform: scale(2.5, 2.5);
+
+	/* Chrome, Safari */
+	-webkit-transform: scale(2.5, 2.5);	
+
+	/* Mozilla Firefox */
+	-moz-transform: scale(2.5, 2.5);
+
+	/* Opera */
+	-o-transform: scale(2.5, 2.5);
+
+	/* Internet Explorer */
+	-ms-transform: scale(2.5, 2.5);
+
+	animation: animacao5 1s linear, animacao6 0.5s linear, animacao7 500ms linear, animacao8 500ms linear;
+	animation-delay: 2s, 3s, 3.5s, 4s;
+
+	/* Chrome, Safari */
+	-webkit-animation: animacao5 1s linear, animacao6 0.5s linear, animacao7 500ms linear, animacao8 500ms linear;
+	-webkit-animation-delay: 2s, 3s, 3.5s, 4s;
+
+	/* Mozilla Firefox */
+	-moz-animation: animacao5 1s linear, animacao6 0.5s linear, animacao7 500ms linear, animacao8 500ms linear;
+	-moz-animation-delay: 2s, 3s, 3.5s, 4s;
+
+	/* Opera */
+	-o-animation: animacao5 1s linear, animacao6 0.5s linear, animacao7 500ms linear, animacao8 500ms linear;
+	-o-animation-delay: 2s, 3s, 3.5s, 4s;
+
+	/* Internet Explorer */
+	-ms-animation: animacao5 1s linear, animacao6 0.5s linear, animacao7 500ms linear, animacao8 500ms linear;
+	-ms-animation-delay: 2s, 3s, 3.5s, 4s;
+}
+
+@keyframes animacao1{
+	to{
+		top: 310px;
+	}
+}
+
+@keyframes animacao2{
+	from{
+		top: 310px;
+	}to{
+		top: 335px;
+		transform: scale(1.25, 0.75);
+	}
+}
+
+@keyframes animacao3{
+	from{
+		top: 335px;
+		transform: scale(1.25, 0.75);
+	}to{
+		top: 285px;
+		transform: scale(0.75, 1.25);
+	}
+}
+
+@keyframes animacao4{
+	from{
+		top: 285px;
+		transform: scale(0.75, 1.25);
+	}to{
+		top: 310px;
+		transform: scale(1, 1);
+	}
+}
+
+@keyframes animacao5{
+	to{
+		transform: scale(1.5, 1.5);
+	}	
+}
+
+@keyframes animacao6{
+	from{
+		transform: scale(1.5, 1.5);
+	}to{
+		transform: scale(1.75, 1.75);
+	}
+}
+
+@keyframes animacao8{
+	from{
+		transform: scale(1.25, 1.25);
+	}to{
+		transform: scale(1.5, 1.5);
+	}
+}
+
+/* Chrome, Safari */
+@-webkit-keyframes animacao1{
+	to{
+		top: 310px;
+	}
+}
+
+@-webkit-keyframes animacao2{
+	from{
+		top: 310px;
+	}to{
+		top: 335px;
+		-webkit-transform: scale(1.25, 0.75);
+	}
+}
+
+@-webkit-keyframes animacao3{
+	from{
+		top: 335px;
+		-webkit-transform: scale(1.25, 0.75);
+	}to{
+		top: 285px;
+		-webkit-transform: scale(0.75, 1.25);
+	}
+}
+
+@-webkit-keyframes animacao4{
+	from{
+		top: 285px;
+		-webkit-transform: scale(0.75, 1.25);
+	}to{
+		top: 310px;
+		-webkit-transform: scale(1, 1);
+	}
+}
+
+@-webkit-keyframes animacao5{
+	to{
+		-webkit-transform: scale(1.5, 1.5);
+	}	
+}
+
+@-webkit-keyframes animacao6{
+	from{
+		-webkit-transform: scale(1.5, 1.5);
+	}to{
+		-webkit-transform: scale(1.75, 1.75);
+	}
+}
+
+@-webkit-keyframes animacao8{
+	from{
+		-webkit-transform: scale(1.25, 1.25);
+	}to{
+		-webkit-transform: scale(1.5, 1.5);
+	}
+}
+
+/* Mozilla Firefox */
+@-moz-keyframes animacao1{
+	to{
+		top: 310px;
+	}
+}
+
+@-moz-keyframes animacao2{
+	from{
+		top: 310px;
+	}to{
+		top: 335px;
+		-moz-transform: scale(1.25, 0.75);
+	}
+}
+
+@-moz-keyframes animacao3{
+	from{
+		top: 335px;
+		-moz-transform: scale(1.25, 0.75);
+	}to{
+		top: 285px;
+		-moz-transform: scale(0.75, 1.25);
+	}
+}
+
+@-moz-keyframes animacao4{
+	from{
+		top: 285px;
+		-moz-transform: scale(0.75, 1.25);
+	}to{
+		top: 310px;
+		-moz-transform: scale(1, 1);
+	}
+}
+
+@-moz-keyframes animacao5{
+	to{
+		-moz-transform: scale(1.5, 1.5);
+	}	
+}
+
+@-moz-keyframes animacao6{
+	from{
+		-moz-transform: scale(1.5, 1.5);
+	}to{
+		-moz-transform: scale(1.75, 1.75);
+	}
+}
+
+@-moz-keyframes animacao8{
+	from{
+		-moz-transform: scale(1.25, 1.25);
+	}to{
+		-moz-transform: scale(1.5, 1.5);
+	}
+}
+
+/* Opera */
+@-o-keyframes animacao1{
+	to{
+		top: 310px;
+	}
+}
+
+@-o-keyframes animacao2{
+	from{
+		top: 310px;
+	}to{
+		top: 335px;
+		-o-transform: scale(1.25, 0.75);
+	}
+}
+
+@-o-keyframes animacao3{
+	from{
+		top: 335px;
+		-o-transform: scale(1.25, 0.75);
+	}to{
+		top: 285px;
+		-o-transform: scale(0.75, 1.25);
+	}
+}
+
+@-o-keyframes animacao4{
+	from{
+		top: 285px;
+		-o-transform: scale(0.75, 1.25);
+	}to{
+		top: 310px;
+		-o-transform: scale(1, 1);
+	}
+}
+
+@-o-keyframes animacao5{
+	to{
+		-o-transform: scale(1.5, 1.5);
+	}	
+}
+
+@-o-keyframes animacao6{
+	from{
+		-o-transform: scale(1.5, 1.5);
+	}to{
+		-o-transform: scale(1.75, 1.75);
+	}
+}
+
+@-o-keyframes animacao8{
+	from{
+		-o-transform: scale(1.25, 1.25);
+	}to{
+		-o-transform: scale(1.5, 1.5);
+	}
+}
+
+/* Internet Explorer */
+@-ms-keyframes animacao1{
+	to{
+		top: 310px;
+	}
+}
+
+@-ms-keyframes animacao2{
+	from{
+		top: 310px;
+	}to{
+		top: 335px;
+		-ms-transform: scale(1.25, 0.75);
+	}
+}
+
+@-ms-keyframes animacao3{
+	from{
+		top: 335px;
+		-ms-transform: scale(1.25, 0.75);
+	}to{
+		top: 285px;
+		-ms-transform: scale(0.75, 1.25);
+	}
+}
+
+@-ms-keyframes animacao4{
+	from{
+		top: 285px;
+		-ms-transform: scale(0.75, 1.25);
+	}to{
+		top: 310px;
+		-ms-transform: scale(1, 1);
+	}
+}
+
+@-ms-keyframes animacao5{
+	to{
+		-ms-transform: scale(1.5, 1.5);
+	}	
+}
+
+@-ms-keyframes animacao6{
+	from{
+		-ms-transform: scale(1.5, 1.5);
+	}to{
+		-ms-transform: scale(1.75, 1.75);
+	}
+}
+
+@-ms-keyframes animacao8{
+	from{
+		-ms-transform: scale(1.25, 1.25);
+	}to{
+		-ms-transform: scale(1.5, 1.5);
+	}
+}
