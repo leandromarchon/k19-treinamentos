@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@media all{
+	p{
+		font-size: 50px;
+	}
+}
+
+@media screen{
+	p{
+		color: #ff0000;
+	}
+}
+
+@media print{
+	p{
+		color: #0000ff;
+	}
+}
+
+@media screen and (max-device-width: 480px){
+	p{
+		color: #00ff00;
+	}
+}
