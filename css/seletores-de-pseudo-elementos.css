@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+p:first-line{
+	background-color: #ffff00;
+}
+
+p:first-letter{
+	font-size: 50px;
+}
+
+h1:before{
+	content: '~ ';
+	color: #ff0000;
+}
+
+h1:after{
+	content: ' ~';
+	color: #ff0000;
+}
