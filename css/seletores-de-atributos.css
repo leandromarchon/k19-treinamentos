@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+[title]{
+	border: 4px solid #f00;
+}
+
+[title='Página 3']{
+	color: #0f0;
+}
+
+[title='K19']{
+	padding: 10px;
+	background-color: #fff000;
+}
+
+[title^='Link']{
+	margin-right: 30px;
+}
+
+[href$='link']{
+	outline: 4px solid #00f;
+}
+
+[src*='large']{
+	border: 4px solid #0f0;
+}
+
+[href|='#link']{
+	font-size: 30px;
+}
