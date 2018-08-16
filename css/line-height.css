@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+p{
+	width: 400px;
+	border: 1px solid #000;
+}
+
+#p-1{
+	line-height: 20px;
+}
+
+#p-2{
+	line-height: 40px;
+}
