@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+p{
+	font-size: xx-large;
+}
+
+#p-1{
+	font-family: "Norican";
+}
+
+#p-2{
+	font-family: "Bad Script";
+}
+
+#p-3{
+	font-family: "Ceviche One";
+}
