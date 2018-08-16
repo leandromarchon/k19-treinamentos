@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+p{
+	width: 400px;
+	border: 1px solid #000;
+}
+
+#p-1{
+	white-space: nowrap;
+}
+
+#p-2{
+	white-space: pre;
+}
+
+#p-3{
+	white-space: pre-line;
+}
+
+#p-4{
+	white-space: pre-wrap;
+}
