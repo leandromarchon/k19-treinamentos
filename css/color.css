@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#p-1{
+	color: #ff0000;
+}
+
+#p-2{
+	color: #00ff00;
+}
+
+#p-3{
+	color: rgb(0, 0, 255);
+}
