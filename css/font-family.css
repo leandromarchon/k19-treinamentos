@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+p{
+	font-size: xx-large;
+}
+
+#p-1{
+	font-family: "Arial";
+}
+
+#p-2{
+	font-family: "Courier";
+}
+
+#p-3{
+	font-family: "Verdana";
+}
+
+#p-4{
+	font-family: "serif";
+}
+
+#p-5{
+	font-family: "cursive";
+}
