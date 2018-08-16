@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#p-1{
+	word-spacing: 10px;
+}
+
+#p-2{
+	word-spacing: -5px;
+}
+
+#p3{
+	word-spacing: 30px;
+}
+
+#p-4{
+	word-spacing: 50px;
+}
