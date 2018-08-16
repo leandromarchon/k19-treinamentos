@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+p{
+	width: 400px;
+}
+
+#p-1{
+	text-decoration: underline;
+}
+
+#p-2{
+	text-decoration: overline;
+}
+
+#p-3{
+	text-decoration: line-through;
+}
