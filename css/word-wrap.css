@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+p{
+	width: 100px;
+	border: 1px solid #000;
+}
+
+#p-1{
+	word-wrap: break-word;
+}
