@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+p{
+	font-size: xx-large;
+}
+
+#p-1{
+	font-variant: small-caps;
+}
