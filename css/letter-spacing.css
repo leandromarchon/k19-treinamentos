@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#p-1{
+	letter-spacing: 2px;
+}
+
+#p-2{
+	letter-spacing: -2px;
+}
+
+#p-3{
+	letter-spacing: 4px;
+}
+
+#p-4{
+	letter-spacing: 6px;
+}
