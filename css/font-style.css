@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+p{
+	font-size: xx-large;
+}
+
+#p-1{
+	font-style: italic;
+}
+
+#p-2{
+	font-style: oblique;
+}
