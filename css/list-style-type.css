@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+#ul-1{
+	list-style-type: disc;
+}
+
+#ul-2{
+	list-style-type: circle;
+}
+
+#ul-3{
+	list-style-type: square;
+}
+
+#ol-1{
+	list-style-type: decimal;
+}
+
+#ol-2{
+	list-style-type: lower-latin;
+}
+
+#ol-3{
+	list-style-type: georgian;
+}
