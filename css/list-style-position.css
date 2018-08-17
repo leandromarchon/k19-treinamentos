@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+li{
+	border: 1px solid #000;
+}
+
+#ul-1{
+	list-style-position: inside;
+}
