@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+div{
+	width: 400px;
+	height: 100px;
+	margin: 10px;
+}
+
+#div-1{
+	outline-style: dashed;
+}
+
+#div-2{
+	outline-style: dotted;
+}
+
+#div-3{
+	outline-style: solid;
+}
