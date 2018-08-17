@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+div{
+	width: 400px;
+	height: 500px;
+	margin: 50px;
+	outline: 5px solid #ff0000;
+	border: 5px solid #000000;
+}
+
+#div-1{
+	outline-offset: 20px;
+}
+
+#div-2{
+	outline-offset: -20px;
+}
