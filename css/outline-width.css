@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+div{
+	width: 400px;
+	height: 100px;
+	margin: 10px;
+	outline-style: solid;
+}
+
+#div-1{
+	outline-width: thin;
+}
+
+#div-2{
+	outline-width: thick;
+}
+
+#div-3{
+	outline-width: 2px;
+}
