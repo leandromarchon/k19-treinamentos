@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+div{
+    display: inline-block;
+    border: 2px solid #000000;
+    width: 100px;
+    height: 100px;
+    background-color: #fff000;
+    background-clip: content-box;
+}
+
+#div-1{
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+#div-2{
+    padding-bottom: 50px;
+}
+
+#div-3{
+    padding-left: 50px;
+}
+
+#div-4{
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
