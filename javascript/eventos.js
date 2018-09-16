@@ -62,18 +62,18 @@ window.onload = function(event){
     div.onmouseout = function(){
         console.log("mouseout");
     }
+}
 
-    function resize(){
-        var w = window.outerWidth;
-        var h = window.outerHeight;
+function resize(){
+    var w = window.outerWidth;
+    var h = window.outerHeight;
 
-        console.log("resize(" + w + ", " + h + ")");
-    }
+    console.log("resize(" + w + ", " + h + ")");
+}
 
-    function scroll(){
-        var x = window.pageXOffset;
-        var y = window.pageYOffset;
+function scroll(){
+    var x = window.pageXOffset;
+    var y = window.pageYOffset;
 
-        console.log("scroll(" + x + ", " + y + ")");
-    }
+    console.log("scroll(" + x + ", " + y + ")");
 }
